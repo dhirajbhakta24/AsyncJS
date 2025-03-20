@@ -43,5 +43,15 @@ __________________________________________________________
 ->
 */
 
+/*
+ASYNC programming
+____________________________________________________________
+what is the default nature of js ?
+-> any native piece of js code is always syncronous in nature , because js is 
+single threaded
 
+ 
+
+
+*/
 
