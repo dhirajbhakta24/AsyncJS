@@ -1,7 +1,12 @@
-function myMap(arr,fn){
-    let result = []; //Created a new array to store the results
-    for(let i=0;i<arr.length;i++){
-        result.push(fn(arr[i],i));
-    }
-    return result;
+setTimeout(function f(){
+    console.log('Hello');
+},10);
+
+setTimeout(function g(){
+    console.log('hello g');
+},5);
+
+let x =0;
+for(let i =0;i<100000000000;i++){
+    x= x+i;
 }
