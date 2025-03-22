@@ -7,6 +7,6 @@ setTimeout(function g(){
 },5);
 
 let x =0;
-for(let i =0;i<100000000000;i++){
+for(let i =0;i<1000;i++){
     x= x+i;
 }
