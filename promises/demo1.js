@@ -5,7 +5,7 @@ function download(url, callback) {
   setTimeout(() => {
     console.log('Downloaded the content from', url);
     const content = "dummy content"; // Simulating downloaded content
-    callback(content);
+    callback?.();
   }, 2000);
 }
 
@@ -13,7 +13,7 @@ function write(content, fileLocation, callback) {
   console.log("Started writing the downloaded content to", fileLocation);
   setTimeout(() => {
     console.log(`Wrote the content: "${content}" to`, fileLocation);
-    callback();
+    callback?.();
   }, 2000);
 }
 
@@ -21,7 +21,7 @@ function upload(fileName, uploadUrl, callback) {
   console.log(`Started the upload of ${fileName} to`, uploadUrl);
   setTimeout(() => {
     console.log('Uploaded the content to', uploadUrl);
-    callback();
+    callback?.();
   }, 2000);
 }
 
