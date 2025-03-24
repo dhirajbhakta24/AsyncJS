@@ -4,6 +4,8 @@
 
 1.How to create a promise
 ______________________________________________________________
+Important -> promise is an native feature of javascript
+
 in js we have a promise constructor 
 
 
