@@ -66,3 +66,18 @@ const p3 = p2.then(function g(value){
 p3.then(function h(value){
     console.log("file uploaded" , value)
 })
+
+//another way of doing the samething 
+
+download("https//www.example.com")
+.then(function f(value){
+    console.log("Downloaded data is", value);
+    return writeFile(value , "file.txt");
+})
+.then(function g(value){
+    console.log("file written ",value);
+    return upload(value , "https://www.example.com");
+})
+.then(function h(value){
+    console.log("file uploaded" , value);
+});
