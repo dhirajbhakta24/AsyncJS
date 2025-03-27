@@ -9,5 +9,6 @@ const it = gen();
 console.log(it.next()); //{value :10 ,done:false}
 //some logic
 console.log(it.next(11));//this line will  inject 11 at line 3 the place where 
-//last yield was called -> x= 11
+//last yield was called -> x= 11 { value: 41, done: false }
+console.log(it.next()); //{ value: undefined, done: true }
 

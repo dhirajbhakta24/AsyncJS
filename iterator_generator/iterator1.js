@@ -6,6 +6,8 @@ it is a general programming concept that are present in many languages
 
 it is nothing but a design pattern 
 
+https://refactoring.guru/design-patterns/iterator
+
 programming language -> 
 1. declarative 
 + we define what to do and dont care about the how 
