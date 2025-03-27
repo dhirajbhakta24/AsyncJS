@@ -8,4 +8,7 @@ const p1 = new Promise(function exec(res,rej){
 });
 
 const p2 = p1.then(function a(){console.log('a')},function b(){console.log('b')});
-//p2 is a new promise , which is resolved with the return value of the callback function a and b
+//p2 is a new promise , which is resolved with the return value of the 
+// callback function a and b
+//p3 is also a brand new promise
+const p3 = p1.then(function a(){console.log('a')},function b(){console.log('b')});
