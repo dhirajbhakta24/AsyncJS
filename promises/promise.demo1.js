@@ -68,6 +68,7 @@ p3.then(function h(value){
 })
 
 //another way of doing the samething 
+//.then() chaining
 
 download("https//www.example.com")
 .then(function f(value){
